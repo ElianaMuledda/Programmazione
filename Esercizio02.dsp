@@ -7,7 +7,6 @@ mastergroup(x) = vgroup("[01]", x);
 
 maingroup(x)   = mastergroup(hgroup("[02]", x));
 
-
 osc1group(x)  = fame1group(vgroup("[01] f1", x));
 fame1group(x) = maingroup(hgroup("[01]", x));
 osc2group(x)  = fame2group(vgroup("[02] f2", x));
