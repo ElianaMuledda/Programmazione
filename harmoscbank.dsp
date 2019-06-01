@@ -20,5 +20,4 @@ stereo = hgroup("[127] STEREO OUT", *(vol), *(vol) : vmeter, vmeter)
 };
   
 process = hgroup("OSCILLATORS BANK", par(i, 4, oscill(i)) :> stereo);
-//la moltiplicazione che parta da 1
 
